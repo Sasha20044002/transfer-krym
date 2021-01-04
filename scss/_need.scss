@@ -1,0 +1,18 @@
+@import '_fonts.scss';
+
+@mixin txt($c, $lh, $fz, $ff){
+	color: $c;
+	line-height: $lh;
+	font-size: $fz;
+	font-family: $ff;
+}
+
+//переменные
+//size
+$w: 100%;
+$h: 100%;
+//color
+$black: black;
+$white: white;
+$c1: #FEDA1F;
+$c2: #fff;

@@ -1,0 +1,127 @@
+@font-face {
+  font-family: M700;
+  src: url(../fonts/Montserrat-Bold.woff2);
+}
+@font-face {
+  font-family: M600;
+  src: url(../fonts/Montserrat-SemiBold.woff2);
+}
+@font-face {
+  font-family: M500;
+  src: url(../fonts/Montserrat-Medium.woff2);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  width: 100%;
+  min-height: 979px;
+  background-image: url(../img/back-header.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header-header {
+  width: 100%;
+  min-height: 156px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(59.9%, rgba(0, 0, 0, 0.48)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.48) 59.9%, rgba(0, 0, 0, 0) 100%);
+}
+.header-header-text {
+  width: 175px;
+  color: white;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: M700;
+  text-decoration: none;
+}
+.header-header-nav {
+  margin: 0 76px 0 79px;
+}
+.header-header-nav-list {
+  width: 506px;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header-header-nav-list-item-link {
+  text-decoration: none;
+  color: white;
+  line-height: 17px;
+  font-size: 14px;
+  font-family: M600;
+}
+.header-header-nav-list-item-link:hover {
+  color: #FEDA1F;
+}
+.header-header-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-header-contacts-tel {
+  margin: 0 30px 0 0;
+}
+.header-header-contacts-tel-link {
+  color: white;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: M600;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-header-contacts-tel-link::before {
+  content: url(../img/tel-ico.svg);
+  margin: 0 15px 0 0;
+}
+.header-header-contacts-tel-text {
+  color: white;
+  line-height: 15px;
+  font-size: 12px;
+  font-family: M500;
+  display: block;
+}
+.header-header-contacts-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-header-contacts-social a {
+  text-decoration: none;
+}
+.header-header-contacts-social .whatsapp {
+  margin: 0 0 9px 0;
+}
