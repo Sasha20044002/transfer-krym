@@ -286,13 +286,3 @@
   outline: none;
   border: none;
 }
-.header-info .brightness {
-  height: 559px;
-  width: 1646px;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.056)), color-stop(59.9%, rgba(0, 0, 0, 0.532)), to(rgba(0, 0, 0, 0.147)));
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.056) 0%, rgba(0, 0, 0, 0.532) 59.9%, rgba(0, 0, 0, 0.147) 100%);
-  position: absolute;
-  bottom: -1px;
-  right: 0px;
-  z-index: -1;
-}

@@ -1,10 +1,18 @@
 'use strict';
 
-let btn = document.getElementById('taxi');
+let btnTaxi = document.getElementById('taxi');
+let btnTel = document.getElementById('telephone');
 
-btn.onclick = function (evt) {
- evt.preventDefault();
- 
- console.log('Вы успешно заказали такси');
- alert('Вы успешно заказали такси');
+btnTaxi.onclick = function (evt) {
+	evt.preventDefault();
+
+	console.log('Вы успешно заказали такси');
+	alert('Вы успешно заказали такси');
+};
+
+btnTel.onclick = function (evt) {
+	evt.preventDefault();
+
+	console.log('Вы успешно заказали звонок');
+	alert('Вы успешно заказали звонок');
 };
