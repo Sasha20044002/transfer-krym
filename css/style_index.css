@@ -37,6 +37,7 @@
           justify-content: center;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), color-stop(59.9%, rgba(0, 0, 0, 0.48)), to(rgba(0, 0, 0, 0)));
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.48) 59.9%, rgba(0, 0, 0, 0) 100%);
+  margin: 0 0 52px 0;
 }
 .header-header-text {
   width: 175px;
@@ -124,4 +125,174 @@
 }
 .header-header-contacts-social .whatsapp {
   margin: 0 0 9px 0;
+}
+.header-info {
+  width: 987px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  position: relative;
+}
+.header-info-title {
+  width: 100%;
+  text-align: center;
+  color: white;
+  line-height: 98px;
+  font-size: 80px;
+  font-family: M700;
+  margin: 0 0 49px 0;
+}
+.header-info-text {
+  width: 387px;
+  margin: 0 0 38px 0;
+  color: white;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: M700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header-info-text::before {
+  content: url(../img/car-ico.svg);
+  margin: 0 31px 0 0;
+}
+.header-info .margin-right {
+  margin: 0 20px 0 0;
+}
+.header-info-form {
+  background-color: white;
+  -webkit-box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.6);
+          box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  width: 857px;
+  min-height: 316px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 38px 67px 67px 63px;
+}
+.header-info-form-title {
+  width: 100%;
+  color: black;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: M700;
+  margin: 0 0 31px 0;
+}
+.header-info-form-title .yellow {
+  color: #FEDA1F;
+}
+.header-info-form-title .text {
+  color: #9F9F9F;
+  line-height: 17px;
+  font-size: 14px;
+  font-family: M600;
+  padding: 5px 0 0 24px;
+}
+.header-info-form input, .header-info-form textarea, .header-info-form select {
+  border: 2px solid #C5C5C5;
+  border-radius: 5px;
+}
+.header-info-form input:focus, .header-info-form input:active, .header-info-form textarea:focus, .header-info-form textarea:active, .header-info-form select:focus, .header-info-form select:active {
+  outline: none;
+  border: 2px solid #2747F0;
+}
+.header-info-form .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.header-info-form .left #name, .header-info-form .left #tel {
+  width: 380px;
+  margin: 0 0 20px 0;
+  padding: 16px 0px 17px 32px;
+}
+.header-info-form .left #comment {
+  width: 382px;
+  height: 104px;
+  padding: 16px 0 0 30px;
+}
+.header-info-form .right {
+  width: 410px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: start;
+}
+.header-info-form .right #date {
+  width: 220px;
+  height: 48px;
+  margin: 0 0 19px 0;
+}
+.header-info-form .right #time {
+  width: 160px;
+  height: 50px;
+}
+.header-info-form .right #street1, .header-info-form .right #street2 {
+  width: 190px;
+  height: 50px;
+  margin: 0 0 18px 0;
+}
+.header-info-form .right #class-car {
+  width: 350px;
+  height: 50px;
+  padding: 0px 30px;
+  margin: 0 0 20px 0;
+}
+.header-info-form .right #class-car option {
+  color: #9F9F9F;
+  line-height: 17px;
+  font-size: 14px;
+  font-family: M600;
+}
+.header-info-form .right #taxi {
+  color: white;
+  line-height: 17px;
+  font-size: 14px;
+  font-family: M700;
+  padding: 17px 70px 16px 71px;
+  background-color: #2747F0;
+  -webkit-box-shadow: 0px 0px 10px rgba(39, 68, 222, 0.3);
+          box-shadow: 0px 0px 10px rgba(39, 68, 222, 0.3);
+  border-radius: 30px;
+  border: none;
+}
+.header-info-form .right #taxi:focus, .header-info-form .right #taxi:active {
+  outline: none;
+  border: none;
+}
+.header-info .brightness {
+  height: 559px;
+  width: 1646px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.056)), color-stop(59.9%, rgba(0, 0, 0, 0.532)), to(rgba(0, 0, 0, 0.147)));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.056) 0%, rgba(0, 0, 0, 0.532) 59.9%, rgba(0, 0, 0, 0.147) 100%);
+  position: absolute;
+  bottom: -1px;
+  right: 0px;
+  z-index: -1;
 }

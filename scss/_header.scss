@@ -13,6 +13,7 @@
 		align-items: center;
 		justify-content: center;
 		background: linear-gradient(180deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.48) 59.9%, rgba(0, 0, 0, 0) 100%);
+		margin: 0 0 52px 0;
 
 		&-text{
 			width: 175px;
@@ -78,6 +79,153 @@
 					margin: 0 0 9px 0;
 				}
 			}
+		}
+	}
+
+	&-info{
+		width: 987px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin: 0 auto;
+		position: relative;
+
+		&-title{
+			width: 100%;
+			text-align: center;
+			@include txt($white, 98px, 80px, M700);
+			margin: 0 0 49px 0;
+		}
+
+		&-text{
+			width: 387px;
+			margin: 0 0 38px 0;
+			@include txt($white, 24px, 20px, M700);
+			display: flex;
+			align-items: center;
+
+			&::before{
+				content: url(../img/car-ico.svg);
+				margin: 0 31px 0 0;
+			}
+		}
+
+		.margin-right{
+			margin: 0 20px 0 0;
+		}
+
+		&-form{
+			background-color: $white;
+			box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.6);
+			border-radius: 10px;
+			width: 987px - 63px - 67px;
+			min-height: 421px - 38px - 67px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			padding: 38px 67px 67px 63px;
+
+			&-title{
+				width: 100%;
+				@include txt($black, 24px, 20px, M700);
+				margin: 0 0 31px 0;
+
+				.yellow{
+					color: $c1;
+				}
+
+				.text{
+					@include txt($c2, 17px, 14px, M600);
+					padding: 5px 0 0 24px;
+				}
+			}
+
+			input, textarea, select{
+				border: 2px solid $c4;
+				border-radius: 5px;
+
+				&:focus, &:active{
+						outline: none;
+						border: 2px solid $c3;
+					}
+			}
+
+			.left{
+				display: flex;
+				flex-direction: column;
+
+				#name, #tel{
+					width: 412px - 32px;
+					margin: 0 0 20px 0;
+					padding: 16px 0px 17px 32px;
+				}
+
+				#comment{
+					width: 412px - 30px;
+					height: 120px - 16px;
+					padding: 16px 0 0 30px;
+				}
+			}
+
+			.right{
+				width: 220px + 160px + 30px;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+				align-content: start;
+
+				#date{
+					width: 220px;
+					height: 48px;
+					margin: 0 0 19px 0;
+				}
+
+				#time{
+					width: 160px;
+					height: 50px;
+				}
+
+				#street1, #street2{
+					width: 190px;
+					height: 50px;
+					margin: 0 0 18px 0;
+				}
+
+				#class-car{
+					width: 410px - 30px - 30px;
+					height: 50px;
+					padding: 0px 30px;
+					margin: 0 0 20px 0;
+
+					option{
+						@include txt($c2, 17px, 14px, M600);
+					}
+				}
+
+				#taxi{
+					@include txt($white, 17px, 14px, M700);
+					padding: 17px 70px 16px 71px;
+					background-color: $c3;
+					box-shadow: 0px 0px 10px rgba(39, 68, 222, 0.3);
+					border-radius: 30px;
+					border: none;
+
+					&:focus, &:active{
+						outline: none;
+						border: none;
+					}
+				}
+			}
+		}
+
+		.brightness {
+			height: 559px;
+			width: 1646px;
+			background: linear-gradient(180deg, rgba(0, 0, 0, 0.056) 0%, rgba(0, 0, 0, 0.532) 59.9%, rgba(0, 0, 0, 0.147) 100%);
+			position: absolute;
+			bottom: -1px;
+			right: 0px;
+			z-index: -1;
 		}
 	}
 }

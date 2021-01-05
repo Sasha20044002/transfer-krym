@@ -41,7 +41,34 @@
 				</div>
 			</div>
 		</section>
-		<section class="header-info"></section>
+		<section class="header-info">
+			<h1 class="header-info-title">Трансфер по Крыму</h1>
+			<span class="header-info-text margin-right">Трансферы между городами 
+			и поселками Крыма</span>
+			<span class="header-info-text">Трансфер из аэропорта в любую точку Крыма</span>
+			<form action="#" method="POST" class="header-info-form">
+				<span class="header-info-form-title">Заказать <span class="yellow">такси</span><span class="text">Заполните форму, чтоб заказать такси</span></span>
+				<div class="left">
+					<input type="text" name="name" id="name" placeholder="Александра">
+					<input type="tel" name="tel" id="tel" placeholder="Телефон">
+					<textarea name="comment" id="comment" cols="30" rows="10" placeholder="Комментарий"></textarea>
+				</div>
+				<div class="right">
+					<input type="date" name="date" id="date">
+					<input type="time" name="time" id="time">
+					<input type="text" name="street1" id="street1">
+					<input type="text" name="street2" id="street2">
+					<select name="class-car" id="class-car">
+						<option value="1" selected>Класс автомобиля</option>
+						<option value="2">Эконом</option>
+						<option value="3">Бизнес</option>
+					</select>
+					<button type="submit" id="taxi">Заказать такси</button>
+				</div>
+			</form>
+		</section>
 	</header>
+
+	<script src="js/script.js"></script>
 </body>
 </html>
