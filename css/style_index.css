@@ -310,7 +310,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 77px 0 64px 0;
+  margin: 77px 0 107px 0;
 }
 .six-title {
   width: 100%;
@@ -366,4 +366,186 @@
 }
 .six-block:nth-child(2), .six-block:nth-child(3), .six-block:nth-child(4) {
   margin-bottom: 32px;
+}
+
+.article {
+  min-height: 444px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 0 92px 0;
+}
+.article-block-text {
+  width: 668px;
+  height: 311px;
+  padding: 76px 64px 57px 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: white;
+  -webkit-box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  position: relative;
+}
+.article-block-text-title {
+  color: black;
+  line-height: 24px;
+  font-size: 20px;
+  font-family: M500;
+  margin: 0 0 33px 0;
+}
+.article-block-text-text {
+  color: #9F9F9F;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: M500;
+}
+.article-block-text .quotes {
+  color: #2C2C2C;
+  line-height: 146px;
+  font-size: 120px;
+  font-family: M700;
+  position: absolute;
+  top: -43px;
+  left: 63px;
+}
+.article-picture {
+  display: block;
+  width: 400px;
+  min-height: 444px;
+  margin-left: -100px;
+  background: #FEDA1F;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  position: relative;
+  z-index: -1;
+}
+.article-img {
+  position: absolute;
+  bottom: -20px;
+  right: 1px;
+  z-index: 4;
+}
+
+.class-car {
+  width: 1114px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 0 70px 0;
+}
+.class-car-title {
+  width: 100%;
+  padding: 0 0 0 63px;
+  color: #2C2C2C;
+  line-height: 49px;
+  font-size: 40px;
+  font-family: M700;
+  margin: 0  0 50px 0;
+}
+.class-car-title-yellow {
+  color: #FEDA1F;
+}
+.class-car-block {
+  width: 256px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.class-car-block-title {
+  color: #2C2C2C;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: M700;
+  margin: 0 0 16px 0;
+}
+.class-car-block-text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9F9F9F;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: M600;
+  margin: 0 0 16px 0;
+}
+.class-car-block-text .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.class-car-block-text .person::before {
+  content: url(../img/persone-ico.svg);
+  margin: 0 5px 0 0;
+}
+.class-car-block-text .suitcase {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.class-car-block-text .suitcase::before {
+  content: url(../img/suitcase-ico.svg);
+  margin: 0 7px 0 0;
+}
+.class-car-block-btn {
+  width: 100%;
+  text-align: center;
+  background-color: #2747F0;
+  -webkit-box-shadow: 0px 0px 10px rgba(39, 68, 222, 0.3);
+          box-shadow: 0px 0px 10px rgba(39, 68, 222, 0.3);
+  border-radius: 30px;
+  border: none;
+  padding: 16.5px 0;
+  color: white;
+  line-height: 17px;
+  font-size: 14px;
+  font-family: M700;
+}
+.class-car-block-btn:focus, .class-car-block-btn:active {
+  border: none;
+  outline: none;
+}
+.class-car-block:not(:nth-child(2)) img {
+  margin-bottom: 43px;
+}
+.class-car-block:nth-child(4) img, .class-car-block:nth-child(5) img {
+  margin-bottom: 51px;
 }
